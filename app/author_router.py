@@ -37,8 +37,6 @@ class UserStub(BaseModel):
 
 
 def get_current_user():
-    # In real app, extract user from JWT
-    # Here, return a stub user (change as needed for testing)
     return UserStub(id=1, username="admin", role="admin")
 
 
