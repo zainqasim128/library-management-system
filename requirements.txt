@@ -1,0 +1,6 @@
+pydantic>=1.10,<2.0
+fastapi
+uvicorn
+sqlalchemy
+passlib
+fastapi-jwt-auth 
